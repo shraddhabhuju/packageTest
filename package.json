@@ -19,5 +19,7 @@
   "bugs": {
     "url": "https://github.com/shraddhabhuju/packageTest/issues"
   },
-  "homepage": "https://github.com/shraddhabhuju/packageTest#readme"
+  "homepage": "https://github.com/shraddhabhuju/packageTest#readme",
+  "dependencies": {
+  }
 }
