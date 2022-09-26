@@ -21,5 +21,6 @@
   },
   "homepage": "https://github.com/shraddhabhuju/packageTest#readme",
   "dependencies": {
+    "firebase-tools":"^11.10.0"
   }
 }
