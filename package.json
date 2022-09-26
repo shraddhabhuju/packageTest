@@ -1,0 +1,23 @@
+{
+  "name": "@shraddhabhuju/packagetest",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shraddhabhuju/packageTest.git"
+  },
+  "keywords": [
+    "package",
+    "test"
+  ],
+  "author": "Shraddha Bhuju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shraddhabhuju/packageTest/issues"
+  },
+  "homepage": "https://github.com/shraddhabhuju/packageTest#readme"
+}
