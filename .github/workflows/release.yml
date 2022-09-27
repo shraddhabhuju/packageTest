@@ -22,8 +22,8 @@ jobs:
           automatic_release_tag: "1.1.0"
           prerelease: false
           title: "Development Build"
-          
-    publish-npm:
+
+  publish-npm:
     needs: build
     runs-on: ubuntu-latest
     steps:
