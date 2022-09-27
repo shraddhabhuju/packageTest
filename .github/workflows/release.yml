@@ -6,8 +6,8 @@ on:
       - "main"
 
 jobs:
-  pre-release:
-    name: "Pre Release"
+  release:
+    name: "Release"
     runs-on: "ubuntu-latest"
 
     steps:
@@ -19,6 +19,6 @@ jobs:
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
-          automatic_release_tag: "1.0.7"
+          automatic_release_tag: "1.0.6"
           prerelease: false
           title: "Development Build"
