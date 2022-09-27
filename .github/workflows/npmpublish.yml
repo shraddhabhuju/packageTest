@@ -1,4 +1,4 @@
-name: Sveltefire Package
+name: Publish Package
 
 on:
   release:
