@@ -14,8 +14,8 @@ jobs:
         with:
           node-version: 12
       - run: npm ci
-      - uses: w9jds/firebase-action@master
+      - uses: docker://w9jds/firebase-action:master
         with:
           args: deploy --only hosting
         env:
-          GCP_SA_KEY: ${{ secrets.FIREBASE_TOKEN }}
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
